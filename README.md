@@ -10,9 +10,7 @@
    
               Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
                   
-                 2.2 Test ใช้ command >>>
-
-    choco --version
+2.2 Test ใช้ command >>>    choco --version
    
    ถอนการติดตั้ง Remove-Item -Recurse -Force "C:\ProgramData\chocolatey"
    ตรวจสอบว่าถอนการติดตั้งแล้ว choco
