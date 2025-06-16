@@ -15,8 +15,7 @@
               choco --version
    
    ถอนการติดตั้ง 
-   
-   Remove-Item -Recurse -Force "C:\ProgramData\chocolatey"
+              Remove-Item -Recurse -Force "C:\ProgramData\chocolatey"
    
    ตรวจสอบว่าถอนการติดตั้งแล้ว choco
               2.3  ใช้ choco ติดตั้ง mingw  .ใช้ command >>> choco install mingw
