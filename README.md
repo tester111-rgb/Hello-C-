@@ -1,12 +1,18 @@
 # Hello-C-
-1. Dowload VSCode : https://code.visualstudio.com/
-             1.1 extension
+1. Dowload VSCode :
+
+             https://code.visualstudio.com/
+
+   1.1 extension
                   c/c++ extensionpack,
                   code runner (setting >>run in terminal/save file before run/ Excutor map >>cpp": "clear )
    
-3. Dowload ;Chocolatey : https://chocolatey.org/install
+2. Dowload ;Chocolatey :
+
+                https://chocolatey.org/install
+   
                go to ;Install Chocolatey for Individual Use:
-             2.1  ใช้ command >>> วาง window powershell or terminal addmin run ด้วย addmin
+2.1  ใช้ command >>> วาง window powershell or terminal addmin run ด้วย addmin
    
               Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
                   
