@@ -12,6 +12,7 @@
                 https://chocolatey.org/install
    
    go to ;Install Chocolatey for Individual Use:
+   
 2.1  ใช้ command >>> วาง window powershell or terminal addmin run ด้วย addmin
    
               Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
