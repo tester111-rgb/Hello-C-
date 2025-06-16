@@ -15,15 +15,22 @@
               choco --version
    
    ถอนการติดตั้ง 
+              
               Remove-Item -Recurse -Force "C:\ProgramData\chocolatey"
    
-   ตรวจสอบว่าถอนการติดตั้งแล้ว choco
-              2.3  ใช้ choco ติดตั้ง mingw  .ใช้ command >>> choco install mingw
-   ได้มาจาก community >>> https://community.chocolatey.org/packages?q=mingw
-              2.4 ปิดเครื่อง
-              2.5 ทดสอบว่าติดตั้ง mingw แล้ว ใช้ command g++ --version
+   ตรวจสอบว่าถอนการติดตั้งแล้ว 
+               
+               choco
+               
+    2.3  ใช้ choco ติดตั้ง mingw  .ใช้ command >>>  ได้มาจาก community >>> https://community.chocolatey.org/packages?q=mingw
+    
+              choco install mingw
+              
+    2.4 ปิดเครื่อง
+    2.5 ทดสอบว่าติดตั้ง mingw แล้ว ใช้ command 
+    
+              g++ --version
    
-
    
 MinGW : https://sourceforge.net/projects/mingw/ 
 
