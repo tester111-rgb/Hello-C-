@@ -6,13 +6,13 @@
    
 3. Dowload ;Chocolatey : https://chocolatey.org/install
                go to ;Install Chocolatey for Individual Use:
-             2.1  ใช้ command >>>
+             2.1  ใช้ command >>> วาง window powershell or terminal addmin run ด้วย addmin
    
               Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-   
-                pate at window powershell or terminal addmin run ด้วย addmin
-   
-              2.2 Test ใช้ command >>>  choco --version
+                  
+                 2.2 Test ใช้ command >>>
+
+    choco --version
    
    ถอนการติดตั้ง Remove-Item -Recurse -Force "C:\ProgramData\chocolatey"
    ตรวจสอบว่าถอนการติดตั้งแล้ว choco
