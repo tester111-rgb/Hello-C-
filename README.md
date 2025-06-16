@@ -33,6 +33,7 @@
               choco install mingw
               
 2.4 ปิดเครื่อง
+
 2.5 ทดสอบว่าติดตั้ง mingw แล้ว ใช้ command 
     
               g++ --version
